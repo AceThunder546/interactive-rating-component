@@ -102,3 +102,10 @@ main {
 .submitted > p {
     color: hsl(217, 12%, 63%);
 }
+
+@media only screen and (max-width: 375px) {
+    #container,
+    .submitted {
+        max-width: 95vw;
+    }
+}
